@@ -1,4 +1,4 @@
-[![](https://www.dropbox.com/s/6bzk69o0lqj3qm1/crop.gif?dl=0)](https://www.dropbox.com/s/6bzk69o0lqj3qm1/crop.gif?dl=0)
+!["GIF"](https://www.dropbox.com/s/6bzk69o0lqj3qm1/crop.gif)
 
 
 FBProgressHUD is a Facebook Messenger style Async Loader for iOS.
