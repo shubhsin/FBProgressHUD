@@ -10,6 +10,7 @@
 		A33C6FEE1A3CC71500431882 /* hud.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C6FEA1A3CC71500431882 /* hud.m */; };
 		A33C6FEF1A3CC71500431882 /* hudLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C6FEC1A3CC71500431882 /* hudLoader.m */; };
 		A33C6FF01A3CC71500431882 /* loader-view.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33C6FED1A3CC71500431882 /* loader-view.xib */; };
+		A3930ADE1A45460400CE0872 /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = A3930ADD1A45460400CE0872 /* spinner.png */; };
 		A3D6210E1A3840B800E76DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D6210D1A3840B800E76DBE /* main.m */; };
 		A3D621111A3840B800E76DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D621101A3840B800E76DBE /* AppDelegate.m */; };
 		A3D621141A3840B800E76DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D621131A3840B800E76DBE /* ViewController.m */; };
@@ -35,6 +36,7 @@
 		A33C6FEB1A3CC71500431882 /* hudLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hudLoader.h; sourceTree = "<group>"; };
 		A33C6FEC1A3CC71500431882 /* hudLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hudLoader.m; sourceTree = "<group>"; };
 		A33C6FED1A3CC71500431882 /* loader-view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "loader-view.xib"; sourceTree = "<group>"; };
+		A3930ADD1A45460400CE0872 /* spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinner.png; sourceTree = "<group>"; };
 		A3D621081A3840B800E76DBE /* hud-fbLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hud-fbLoader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D6210C1A3840B800E76DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D6210D1A3840B800E76DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				A3D6210C1A3840B800E76DBE /* Info.plist */,
 				A3D6210D1A3840B800E76DBE /* main.m */,
+				A3930ADD1A45460400CE0872 /* spinner.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3930ADE1A45460400CE0872 /* spinner.png in Resources */,
 				A3D621171A3840B800E76DBE /* Main.storyboard in Resources */,
 				A3D6211C1A3840B800E76DBE /* LaunchScreen.xib in Resources */,
 				A3D621191A3840B800E76DBE /* Images.xcassets in Resources */,

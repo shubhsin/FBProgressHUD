@@ -28,12 +28,16 @@
 {
     
     myHud = [[hud alloc]init];
+    [self showhud];
+}
+
+-(void)showhud
+{
     myHud.statusText = @"Connecting...";
-        
-        [myHud showHudAddedToView:self.view];
+    
+    [myHud showHudAddedToView:self.view];
     [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(hideTheHud) userInfo:nil repeats:NO];
-    
-    
+
 }
 
 -(void)hideTheHud

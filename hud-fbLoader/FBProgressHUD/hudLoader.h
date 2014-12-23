@@ -11,5 +11,6 @@
 @interface hudLoader : UIView
 
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *spinnerImage;
 
 @end

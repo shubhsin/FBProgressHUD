@@ -11,11 +11,13 @@
 
 @interface hudLoader()
 
-@property hudLoader * hud;
+
 
 @end
 
 @implementation hudLoader
+
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

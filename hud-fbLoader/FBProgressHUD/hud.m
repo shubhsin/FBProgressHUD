@@ -27,6 +27,7 @@
     _hud = [nib objectAtIndex:0];
     _hud.statusLabel.text =_statusText;
     [view addSubview:_hud];
+    [self spinnerRotate];
     [UIView animateWithDuration:1
                           delay:0
          usingSpringWithDamping:0.8
@@ -38,6 +39,18 @@
 
 }
 
+-(void)spinnerRotate
+{
+    CABasicAnimation *fullRotation;
+    fullRotation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
+    fullRotation.fromValue = [NSNumber numberWithFloat:0];
+    fullRotation.toValue = [NSNumber numberWithFloat:((360*M_PI)/180)];
+    fullRotation.duration = 1.15;
+    fullRotation.repeatCount = HUGE_VALF;
+    [_hud.spinnerImage.layer addAnimation:fullRotation forKey:@"360"];
+    
+}
+
 -(void)hideFromView:(UIView*)view
 {
     [self hide:_hud from:view];
@@ -45,6 +58,9 @@
 
 -(void)hide:(hudLoader*)presentHud from:(UIView*)view
 {
+    
+    [_hud.spinnerImage removeFromSuperview];
+    _hud.spinnerImage = nil;
     _hud.backgroundColor = UIColorFromRGB(0x00d774);
     presentHud = _hud;
     presentHud.statusLabel.text = _statusText;
