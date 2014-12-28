@@ -68,8 +68,8 @@
                           delay:1
          usingSpringWithDamping:0.8
           initialSpringVelocity:0
-                        options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        presentHud.frame = CGRectMake(0,24, view.frame.size.width, 40);
+                        options:UIViewAnimationOptionCurveEaseOut animations:^{
+        presentHud.frame = CGRectMake(0,24, view.frame.size.width,0);
     } completion:^(BOOL finished) {
             [presentHud removeFromSuperview];
         _hud = nil;
